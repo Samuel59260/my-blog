@@ -7,7 +7,7 @@ from django.http import JsonResponse
 def my_view(request):
     # View code here...
     print('salut')
-    return JsonResponse({'key': 'salope'})
+    return JsonResponse({'key': 'value'})
 
 def my_new(resquest):
     print(resquest)
